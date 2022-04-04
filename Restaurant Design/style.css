@@ -33,6 +33,7 @@ nav .top-heading {
 nav .top-heading a {
   font-size: 40px;
   text-decoration: none;
+  font-weight: bold;
   color: #026e78;
 }
 
@@ -42,14 +43,12 @@ nav .top-heading span {
 }
 
 .lower-heading {
-  border: 1px solid #000;
   margin-top: 1rem;
 }
 
 ul {
   display: flex;
   text-align: center;
-  border: 1px solid #000;
   margin: 0;
   padding: 0;
 }
@@ -78,4 +77,19 @@ ul li:first-child a {
 
 ul li:last-child {
   background: #026e78;
+}
+
+main .container h1 {
+  font-weight: 200;
+  font-size: 64px;
+  color: white;
+  padding: 1rem;
+  background-color: #026e78;
+  margin-top: 10rem;
+}
+
+.sub-title h1 {
+  border: 1px solid red;
+  width: 1000;
+  margin-left: 294px;
 }
