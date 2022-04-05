@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffe8c8;
+}
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 62px;
+  padding: 1rem 0;
+}
+
+.logo {
+  color: #764400;
+  border: 1px solid #000;
+  font-size: 4rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 1rem 0;
+}
+
+header > h1 {
+  color: #a66000;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+header .shape a {
+  background-color: #a66000;
+  font-size: 48px;
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.main {
+  padding: 3rem 0;
+  display: flex;
+  /* flex: 1; */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3.4rem;
+  justify-content: space-between;
+}
+
+.left h1 {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.left span {
+  font-size: 32px;
+  font-weight: 200;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right button {
+  background-color: #a66000;
+  padding: 20px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+}
