@@ -8,6 +8,8 @@
 
 body {
   background-color: #ffe8c8;
+  font-family: "Roboto", serif;
+  margin: 0;
 }
 
 .container {
@@ -15,25 +17,23 @@ body {
   max-width: 100%;
   margin: 0 auto;
   margin-top: 62px;
-  padding: 1rem 0;
+  padding: 2rem;
 }
 
 .logo {
   color: #764400;
-  border: 1px solid #000;
   font-size: 4rem;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #000;
   padding: 1rem 0;
 }
 
 header > h1 {
   color: #a66000;
-  font-size: 48px;
+  font-size: 4rem;
   font-weight: bold;
   font-style: italic;
 }
@@ -41,15 +41,22 @@ header > h1 {
 header .shape a {
   background-color: #a66000;
   font-size: 48px;
+  display: inline-block;
   color: white;
   font-style: italic;
   text-decoration: none;
+  padding: 1rem 2rem;
+  transform: skew(-10deg);
 }
 
 .main {
   padding: 3rem 0;
   display: flex;
-  /* flex: 1; */
+}
+
+.col {
+  padding: 2rem;
+  flex: 1;
 }
 
 .left {
@@ -79,12 +86,15 @@ header .shape a {
   justify-content: space-between;
 }
 
-.right button {
+.right a {
   background-color: #a66000;
-  padding: 20px;
+  /* padding: 20px; */
   border: none;
   color: white;
   font-weight: 400;
   font-style: italic;
-  font-size: 40px;
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  transform: skew(-10deg);
 }
