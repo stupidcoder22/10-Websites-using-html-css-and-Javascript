@@ -62,14 +62,20 @@ nav ul li a {
 }
 
 .col {
-  /* flex: 1; */
-  margin-left: 2rem;
+  padding: 1.5rem;
+  /* width: 33.33%; */
+  flex: 1;
+}
+
+.col:not(:last-child) {
+  border-right: 2px solid #c4c4c4;
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .container p {
   line-height: 24px;
+  letter-spacing: 1px;
 }
